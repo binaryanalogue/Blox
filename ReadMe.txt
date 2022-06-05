@@ -4,18 +4,19 @@ Description
 
 A light-weight VBA-based add-in for PowerPoint that adds two buttons to Home tab and picture right-click menu:
 - a white box
-	and
+  and
 - a semi-transparent box
 
 
 Installation
 
 Step 1: Save the Blox.ppam file to your computer
-- Copy this path to your clipboard: %appdata%\Microsoft\AddIns
-- When saving the file from the repository, paste that path in to jump to your add-ins folder
-- click OK
+- Click the Blox.ppam file
+- Click Download and save it to your desktop intially
+- Once saved, right-click on the saved file and check "Unblock" at the bottom right to allow your computer to use it
 
 Step 2: Install in PowerPoint
+- Copy the add-in file to your clipboard (ie, click on it and click Ctrl+c)
 - Open PowerPoint
 - Click Esc key to bypass home screen and go straight to blank presentation
 - Click File > Options
@@ -23,7 +24,7 @@ Step 2: Install in PowerPoint
 - Click PowerPoint Add-ins in the drop-down next to Manage: at the bottom
 - Click Go...
 - Click Add New...
-- Click Blox.ppam
+- Click into the white space where files will show and press Ctrl+v to paste the add-in
 - Click OK
 - Click Close
 
