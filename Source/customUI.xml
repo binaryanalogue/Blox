@@ -1,0 +1,18 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon startFromScratch="false">
+           <tabs>
+			<tab idMso="TabHome">
+				<group id="grpBlox" label="Blox">
+					<button id="btnAddWhiteBlock" imageMso="ColorWhite" label="White Block" size="large" onAction="RbnAddWhiteBlock"/>
+					<button id="btnAddSemiTransBlock" imageMso="VisioAreaSelect" label="Semi-Transparent" size="large" onAction="RbnAddSemiBlock"/>
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+	<contextMenus>
+		<contextMenu idMso="ContextMenuPicture">
+			<button id="btnCtxAddWhiteBlock" imageMso="ColorWhite" label="Add &amp;White Block" insertBeforeMso="ObjectSaveAsPicture" onAction="RbnAddWhiteBlock" keytip="W"/>
+			<button id="btnCtxAddSemiTransBlock" imageMso="VisioAreaSelect" label="Add Semi-Transparent Block (&amp;x)" insertBeforeMso="ObjectSaveAsPicture" onAction="RbnAddSemiBlock" keytip="X"/>
+		</contextMenu>
+	</contextMenus>
+</customUI>
