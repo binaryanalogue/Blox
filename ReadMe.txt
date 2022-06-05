@@ -12,7 +12,7 @@ Installation
 
 Step 1: Save the Blox.ppam file to your computer
 - Click the Blox.ppam file
-- Click Download and save it to your desktop intially
+- Click Download and save it to your desktop intially (***right-clicking and Save As will corrupt the file***)
 - Once saved, right-click on the saved file and check "Unblock" at the bottom right to allow your computer to use it
 
 Step 2: Install in PowerPoint
