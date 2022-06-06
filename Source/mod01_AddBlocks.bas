@@ -5,6 +5,12 @@ Option Explicit
 ' Created 2022 by @binaryanalogue
 ' Free to use and distribute
 
+' 2022-06-05 v1.0 Released
+'
+' 2022-06-06 v1.1 Released
+' - sets BlackWhiteMode to white, preventing display of borders
+'
+
 Sub AddWhiteBlock()
     
     '
@@ -146,6 +152,9 @@ Private Sub CreateBlock(AddSemiTransparency As Boolean)
             .Fill.Solid
             .Fill.Transparency = 0#
         End If
+                                        
+        ' Show as white in black/white mode
+        .BlackWhiteMode = msoBlackWhiteWhite
         
         ' Set border parameters
         .Line.Weight = 0#
